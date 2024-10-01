@@ -3,15 +3,56 @@
         <title>Sign-up</title>
         <link rel="stylesheet" href="sign-up.css">
     </head>
-    <body>
-        <div>
-            <h2 class="main-head">Register here </h2>
-            <div>
-                 <label for="UserID">User Id</label>
-                 <input type="text" name="id" id="username">
-                 <label for="password">password</label>
-                 <input type="password" name="password">
+    <body class="body">
+        <div >
+            <div class="container">
+                <h2 class="head">Register here </h2>
+                <table>
+                    <tr>
+                        <td>
+                            
+                            <input type="text" class="input" placeholder="Enter your name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- <label for="email">Email</label> -->
+                            <input type="email" class="input" placeholder="Enter your Mail">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- <label for="password">Password</label> -->
+                            <input type="password" placeholder="Enter your Password" class="input">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- <label for="password">Confirm Password</label> -->
+                            <input type="password" placeholder="Confirm your Password" class="input">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- <label for="State">State</label> -->
+                            <input type="text" placeholder="Enter your State" class="input">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- <label for="country">Country</label> -->
+                            <input type="text" placeholder="Enter your Country" class="input">
+                        </td>
+                    </tr>
+                </table>
+                
+
+ 
+                 
+                 <input type="checkbox" class="input" >
+                 <label for="terms" class="agree">I agree</label><br>
                  <button type="submit" class="submit">Submit</button>
+                 <p class="para">Already have account?<a href="./login.html"><button class="sign-in" >LOG-IN</button></a></p>
             </div>
         </div>
     </body>

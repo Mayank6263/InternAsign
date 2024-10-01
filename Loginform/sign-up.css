@@ -1,3 +1,46 @@
-.main-head{
-    align-items: center;
+.body{
+    background-image: url(body.jpg)
+}
+.container{
+    height: 450px;
+    width: 600px;
+    background: gray;
+    margin-top: 10%;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 3;
+    border-style:solid;
+    border-color:LightGray;
+    border-radius: 20px;
+}
+.head{
+    display: flex;
+    justify-content: center;  
+    color: #282a2c;
+}
+
+input{
+    width: 250px;
+    margin-left: 170px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.submit{
+   margin-left: 280px;
+   margin-top: 10px;
+}
+.submit:hover{
+   background-color: rgb(165, 122, 66);
+}
+.sign-in:hover{
+background-color: rgb(165, 122, 66);
+}
+.para{
+    text-align: center;
+}
+.checkbox{
+    margin-right: 50px;
+}
+.agree{
+    margin-left: -120px;
 }
