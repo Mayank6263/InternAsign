@@ -15,10 +15,10 @@
 }
 .form-group{
    margin-left: 35%;
-    
+    margin-bottom: 10px;
 }
 .label {
-   margin-left: 20%;
+   margin-left: 50px;   
 }
 .input:hover{
     transform: scale(1.06);
@@ -26,17 +26,19 @@
 .input
 {
     margin-left: 200;
+    margin-bottom: 5px;
+    margin-top: 8px;
  }
 
 .submit{
-    margin-left: 35%;
+    margin-left: 270px;
     background-color: cream-white;
-    margin-top: 8;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .submit:hover{
-    background: darkslategray;
-    transform: scale(1.1);
+    background-color: rgb(165, 122, 66);    transform: scale(1.1);
 }
 .h1{
     margin-left: 35%;
@@ -55,16 +57,13 @@
 color:blue;
 }
 
-.p{
-    margin-top: -200px;
-    
-}
 
-.sign-up{
-    width: 70px;
-    height: 22px;
-    font-size: 14px;
-    background: rgb(211, 211, 211);
-    margin-left: 350px;
-    margin-top: -25px;
+
+.para{
+ 
+    margin-top: -23px;
+    text-align: center;
+    .sign-up:hover{
+        background-color: rgb(165, 122, 66);
+    }
 }
